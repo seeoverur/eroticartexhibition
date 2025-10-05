@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EROS UNCHAINED | Erotic Art Exhibition | Charleston, SC</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-color: #1a1a1a;
+            --secondary-color: #f4f4f4;
+            --accent-color: #c5a47e; /* A sophisticated gold/tan */
+            --text-color: #e0e0e0;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: var(--primary-color);
+            color: var(--text-color);
+        }
+
+        h1, h2, h3, h4, h5, h6, .navbar-brand {
+            font-family: 'Playfair Display', serif;
+        }
+
+        /* --- Hero Section --- */
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url('https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1770&auto=format&fit=crop') no-repeat center center;
+            background-size: cover;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+        
+        .hero h1 {
+            font-size: 4.5rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 8px rgba(0,0,0,0.7);
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            font-weight: 300;
+            max-width: 600px;
+            margin: 1rem auto;
+        }
+
+        /* --- Buttons --- */
+        .btn-custom {
+            background-color: var(--accent-color);
+            border: 2px solid var(--accent-color);
+            color: var(--primary-color);
+            padding: 0.75rem 2rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: all 0.3s ease;
+        }
+
+        .btn-custom:hover {
+            background-color: transparent;
+            color: var(--accent-color);
+        }
+
+        /* --- Sections --- */
+        .section-padding {
+            padding: 80px 0;
+        }
+        
+        .section-title {
+            margin-bottom: 50px;
+            text-align: center;
+            font-size: 2.5rem;
+            color: var(--accent-color);
+        }
+        
+        /* --- Feature Icons --- */
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--accent-color);
+            margin-bottom: 1.5rem;
+        }
+        
+        /* --- Legacy Section --- */
+        .legacy-section {
+            background-color: #222;
+        }
+
+        /* --- Navbar --- */
+        .navbar {
+            background-color: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(10px);
+        }
+
+        .navbar-brand, .nav-link {
+            color: var(--secondary-color) !important;
+        }
+
+        .nav-link:hover {
+            color: var(--accent-color) !important;
+        }
+        
+        /* --- Footer --- */
+        .footer {
+            background-color: #111;
+            padding: 40px 0;
+            text-align: center;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">EROS UNCHAINED</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">The Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#legacy">Our Legacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#location">Visit Us</a>
+                    </li>
+                     <li class="nav-item ms-lg-3">
+                        <a class="btn btn-custom" href="#tickets">Get Tickets</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="container">
+            <h1 class="display-3">Eros Unchained</h1>
+            <p class="lead">A Celebration of Erotic Artistry in the Heart of Charleston, SC</p>
+            <a href="#tickets" class="btn btn-custom mt-3">Reserve Your Experience</a>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="section-title text-start" style="color: var(--accent-color);">Art. Desire. Liberation.</h2>
+                    <p class="lead">EROS UNCHAINED is more than an exhibition; it is a multi-sensory journey into the world of eroticism as seen through the eyes of visionary artists. We believe in the power of erotic art to challenge conventions, inspire dialogue, and celebrate the diverse spectrum of human sexuality.</p>
+                    <p>From captivating paintings and sculptures to provocative performances and immersive installations, our curated collection explores themes of intimacy, passion, and the beauty of the human form in a sophisticated, empowering, and inclusive environment.</p>
+                </div>
+                <div class="col-lg-6 mt-4 mt-lg-0">
+                    <img src="https://images.unsplash.com/photo-1598555769148-54628cb38a9b?q=80&w=1854&auto=format&fit=crop" class="img-fluid rounded shadow-lg" alt="Artistic sculpture of a face">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Experience Section -->
+    <section id="experience" class="section-padding" style="background-color: #222;">
+        <div class="container text-center">
+            <h2 class="section-title">The Experience Awaits</h2>
+            <div class="row g-4 mt-4">
+                <!-- Art Displays -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card bg-dark text-white h-100 border-secondary">
+                        <div class="card-body p-4">
+                            <h3 class="card-title text-accent mb-3">Curated Art Galleries</h3>
+                            <p class="card-text">Wander through galleries featuring a provocative collection of painting, photography, sculpture, and digital media from renowned international and local artists.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Live Shows -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card bg-dark text-white h-100 border-secondary">
+                        <div class="card-body p-4">
+                            <h3 class="card-title text-accent mb-3">Live Performances</h3>
+                            <p class="card-text">Be captivated by nightly live performances, from elegant burlesque and cabaret shows to boundary-pushing performance art that explores the depths of desire.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Workshops -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="card bg-dark text-white h-100 border-secondary">
+                        <div class="card-body p-4">
+                            <h3 class="card-title text-accent mb-3">Workshops & Talks</h3>
+                            <p class="card-text">Engage your mind with thought-provoking panels, keynote speakers, and hands-on workshops on topics ranging from life drawing to the history of erotic art.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- A Global Legacy Section -->
+    <section id="legacy" class="section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                     <img src="https://images.unsplash.com/photo-1549472539-b2715a452103?q=80&w=1770&auto=format&fit=crop" class="img-fluid rounded shadow-lg" alt="Street in London">
+                </div>
+                <div class="col-lg-6">
+                    <h2 class="section-title text-start" style="color: var(--accent-color);">A Global Legacy</h2>
+                    <p class="lead">Charleston is the latest stop on a journey that has captivated audiences across the globe. Our exhibitions are part of a tradition that has celebrated erotic art in cultural capitals worldwide.</p>
+                    <p>In vibrant cities like <strong class="text-white">London</strong>, our past events have become legendary, growing into full-fledged festivals of sensuality and creativity. These multi-day spectacles consisted of intimate workshops, fascinating talks by key speakers, stunning art displays, and prestigious awards ceremonies honoring emerging talent. The atmosphere was electric with live shows featuring mesmerizing strippers and cabaret performers, all complemented by unique market stalls where attendees could acquire art and artisan goods. We are thrilled to bring this legacy of artistic freedom and celebration to Charleston.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Location Section -->
+    <section id="location" class="section-padding legacy-section">
+        <div class="container text-center">
+            <h2 class="section-title">Visit Us in Charleston, SC</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <p class="lead">Join us this spring for an unforgettable event.</p>
+                    <h4 class="mt-4">The Refinery Charleston</h4>
+                    <p>1640 Meeting Street Rd, Charleston, SC 29405</p>
+                    <h4 class="mt-4">Event Dates</h4>
+                    <p>April 18th - 21st, 2026</p>
+                    <div class="mt-4">
+                        <!-- Placeholder for a map -->
+                        <img src="https://placehold.co/1200x400/1a1a1a/c5a47e?text=Map+of+The+Refinery+Charleston" class="img-fluid rounded" alt="Map placeholder">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Sponsor Section -->
+    <section id="sponsors" class="section-padding">
+        <div class="container text-center">
+            <h2 class="section-title">Our Premier Sponsor</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <h3 class="mb-3 text-white">Michael At Your Place Charleston</h3>
+                    <p class="lead">A premier male stripper in Charleston SC offering high energy shows for bachelorette parties and all other types of events.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tickets CTA Section -->
+    <section id="tickets" class="section-padding">
+        <div class="container text-center">
+            <h2 class="section-title">Become Part of the Story</h2>
+            <p class="lead mb-4">Tickets are limited. Secure your access to this exclusive celebration of art and sensuality.</p>
+            <a href="#" class="btn btn-custom btn-lg">Purchase Tickets Now</a>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 EROS UNCHAINED. All Rights Reserved. An exploration of art, not pornography. Attendees must be 18+.</p>
+            <!-- Add social media icons here if needed -->
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
